@@ -1,0 +1,317 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SpellAWordActivity" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        >
+        
+        <Button
+            android:id="@+id/button_a"
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_a"
+            android:onClick="displayAButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_b"
+            android:onClick="displayBButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_c"
+            android:onClick="displayCButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_d"
+            android:onClick="displayDButtonImage"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        >
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_e"
+            android:onClick="displayEButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_f"
+            android:onClick="displayFButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_g"
+            android:onClick="displayGButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_h"
+            android:onClick="displayHButtonImage"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        >
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_i"
+            android:onClick="displayIButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_j"
+            android:onClick="displayJButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_k"
+            android:onClick="displayKButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_l"
+            android:onClick="displayLButtonImage"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        >
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_m"
+            android:onClick="displayMButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_n"
+            android:onClick="displayNButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_o"
+            android:onClick="displayOButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_p"
+            android:onClick="displayPButtonImage"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        >
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_q"
+            android:onClick="displayQButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_r"
+            android:onClick="displayRButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_s"
+            android:onClick="displaySButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_t"
+            android:onClick="displayTButtonImage"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        >
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_u"
+            android:onClick="displayUButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_v"
+            android:onClick="displayVButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_w"
+            android:onClick="displayWButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_x"
+            android:onClick="displayXButtonImage"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        >
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_y"
+            android:onClick="displayYButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_z"
+            android:onClick="displayZButtonImage"
+            />
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_done"
+            android:onClick="displayZButtonImage"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        >
+        
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/text_spell_a_word"
+            android:onClick="startSpellAWordActivity"
+            />
+        
+    </LinearLayout>
+
+</LinearLayout>
